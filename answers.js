@@ -82,7 +82,7 @@ function year(x)
 {
     if (x%4===0)
     {
-        if(x%400===0)
+        if(x%100===0 && x%400==0)
         {
             {
                 console.log('Leap Year');
@@ -92,13 +92,17 @@ function year(x)
             {
                 console.log('Not a Leap Year');
             }
-        }
-    else
+        else
         {
             console.log('Leap Year');
         }
+        }
+    else
+        {
+            console.log('Not a Leap Year');
+        }
     }
-year(2016);
+year(1900);
 
 //Print and Count
 function print()
@@ -162,12 +166,11 @@ x=x+1;
 }
 
 //What Do You Know?
-var incoming='value';
-function knowledge()
+function knowledge(incoming)
 {
     console.log(incoming);
 }
-knowledge();
+knowledge('some value');
 
 //Whoa, That Sucker's Huge
 var sum=0;

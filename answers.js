@@ -1,3 +1,4 @@
+//pg. 16 exercises
 //Setting and Swapping
 var myNumber=42;
 var myName='Taylor';
@@ -218,3 +219,86 @@ x=x+1;
 }
 }
 finalCount(3,5,17,9);
+
+//pg. 20 exercises
+//Countdown **NOT RIGHT..?**
+function countdown(number)
+{
+var arr=[];
+for(var x=number;x>=0;x--)
+{
+    arr.push(x);
+}
+}
+countdown(10);
+//array should be one more than the number you choose
+
+//Print and Return
+function print(a,b)
+{
+var arr=[a,b];
+{
+    console.log(a);
+    return(b);
+}
+}
+print(1,0);
+
+//First Plus Length
+var arr=[1,2,3,4];
+var sum=arr[0]+arr.length;
+console.log(sum);
+
+var arr=['what?',2,3,4];
+var sum=arr[0]+arr.length;
+console.log(sum);
+//adds the length to the end of the string: what?4
+
+var arr=[true,2,3,4];
+var sum=arr[0]+arr.length;
+console.log(sum);
+//counts true as 1: sum=5
+
+var arr=[false,2,3,4];
+var sum=arr[0]+arr.length;
+console.log(sum);
+//counts false as 0: sum=4
+
+//Values Greater than Second
+var arr=[1,3,5,7,9,13];
+for(i=0;i<arr.length;i++)
+{
+    if(arr[i]>arr[1])
+    {
+        console.log(arr[i]);
+    }
+}
+
+var arr=[1,3,5,7,9,13];
+var count=0;
+for(i=0;i<arr.length;i++)
+{
+    if(arr[i]>arr[1])
+    {
+        console.log(arr[i]);
+        count=count+1;
+    }
+}
+console.log(count);
+
+//Values Greater than Second, Generalized **NOT RIGHT**
+function array()
+{
+    var arrNew=[];
+    for(i=0;i<arr.length;i++)
+    {
+        if(arr[i]>arr[1])
+        {
+            arrNew.push(arr[i]);
+        }
+    }
+}
+array([1,2,3,4,5]);
+console.log(arrNew.length);
+
+//This Length, That Value

@@ -284,11 +284,10 @@ for(i=0;i<arr.length;i++)
 }
 console.log(count);
 
-//Values Greater than Second, Generalized **NOT RIGHT**
+//Values Greater than Second, Generalized
 function myArray(arrTwo)
 {
 var arrNew=[];
-var arrTwo=[0,1,2,3]
 for(i=0;i<arrTwo.length;i++)
 {
     if(arrTwo[i]>arrTwo[1])
@@ -296,8 +295,9 @@ for(i=0;i<arrTwo.length;i++)
         arrNew.push(arrTwo[i]);
     }
 }
-}
 console.log(arrNew);
+}
+myArray([0,1,2,3]);
 console.log(arrNew.length);
 
 //This Length, That Value

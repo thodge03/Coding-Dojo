@@ -162,3 +162,56 @@ x=x+1;
 }
 
 //What Do You Know?
+var incoming='value';
+function knowledge()
+{
+    console.log(incoming);
+}
+knowledge();
+
+//Whoa, That Sucker's Huge
+var sum=0;
+for(x=-300000;x<=300000;x++)
+{
+    if(x%2==1)
+    {
+        sum=sum+x;
+    }
+}
+console.log(sum);
+
+//Countdown by Fours
+var x=2016;
+while (x>0)
+{
+    console.log(x);
+    x=x-4;
+}
+
+//Flexible Countdown
+function flexCount(lowNum,highNum,mult)
+{
+for(var x=highNum;x>=lowNum;x--)
+{
+    if(x%mult===0)
+    {
+        console.log(x);
+    }
+}
+}
+flexCount(2,9,3);
+
+//The Final Countdown
+function finalCount(param1,param2,param3,param4)
+{
+var x=param2;
+while (x<=param3)
+{
+    if(x%param1===0 && x!=param4)
+    {
+        console.log(x);
+    }
+x=x+1;
+}
+}
+finalCount(3,5,17,9);

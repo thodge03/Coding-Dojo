@@ -287,18 +287,41 @@ for(i=0;i<arr.length;i++)
 console.log(count);
 
 //Values Greater than Second, Generalized **NOT RIGHT**
-function array()
+function myArray(arrTwo)
 {
-    var arrNew=[];
-    for(i=0;i<arr.length;i++)
+var arrNew=[];
+var arrTwo=[0,1,2,3]
+for(i=0;i<arrTwo.length;i++)
+{
+    if(arrTwo[i]>arrTwo[1])
     {
-        if(arr[i]>arr[1])
-        {
-            arrNew.push(arr[i]);
-        }
+        arrNew.push(arrTwo[i]);
     }
 }
-array([1,2,3,4,5]);
+}
+console.log(arrNew);
 console.log(arrNew.length);
 
-//This Length, That Value
+//This Length, That Value **COME BACK**
+
+//Fit the First Value **COME BACK**
+
+//Fahrenheit to Celsius
+function fahrenheitToCelsius(fDegrees)
+{
+    var celsius=9/5*(fDegrees-32);
+    console.log(celsius);
+}
+fahrenheitToCelsius(16);
+
+//Celsius to Fahrenheit
+function celsiusToFahrenheit(cDegrees)
+{
+    var fahrenheit = (((9/5) * cDegrees)+32);
+    console.log(fahrenheit);
+}
+celsiusToFahrenheit(100);
+
+//pg. 22 exercises
+
+

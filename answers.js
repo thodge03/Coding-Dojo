@@ -1,4 +1,3 @@
-//pg. 16 exercises
 //Setting and Swapping
 var myNumber=42;
 var myName='Taylor';
@@ -220,7 +219,6 @@ x=x+1;
 }
 finalCount(3,5,17,9);
 
-//pg. 20 exercises
 //Countdown **NOT RIGHT..?**
 function countdown(number)
 {
@@ -302,9 +300,9 @@ for(i=0;i<arrTwo.length;i++)
 console.log(arrNew);
 console.log(arrNew.length);
 
-//This Length, That Value **COME BACK**
+//This Length, That Value
 
-//Fit the First Value **COME BACK**
+//Fit the First Value
 
 //Fahrenheit to Celsius
 function fahrenheitToCelsius(fDegrees)
@@ -322,6 +320,5 @@ function celsiusToFahrenheit(cDegrees)
 }
 celsiusToFahrenheit(100);
 
-//pg. 22 exercises
-
-
+//pg.22 exercises
+//Biggie Size
